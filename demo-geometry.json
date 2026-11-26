@@ -1,0 +1,125 @@
+{
+  "pageLabels": [
+    "A1.0  Floor plan",
+    "A4.0  Exterior elevations"
+  ],
+  "scale": {
+    "page": 0,
+    "x1": 0.3868,
+    "y1": 0.424,
+    "x2": 0.825,
+    "y2": 0.424,
+    "length": 63,
+    "unit": "ft"
+  },
+  "markups": [
+    {
+      "page": 0,
+      "type": "cloud",
+      "x": 0.611,
+      "y": 0.743,
+      "w": 0.159,
+      "h": 0.09,
+      "text": "Toilet rooms",
+      "color": "#8c4a32"
+    },
+    {
+      "page": 0,
+      "type": "arrow",
+      "x": 0.52,
+      "y": 0.68,
+      "w": 0.23,
+      "h": 0.1,
+      "text": "",
+      "color": "#1e4a3a"
+    },
+    {
+      "page": 0,
+      "type": "text",
+      "x": 0.62,
+      "y": 0.73,
+      "w": 0,
+      "h": 0,
+      "text": "Check turning space",
+      "color": "#8c4a32"
+    }
+  ],
+  "comments": [
+    {
+      "page": 0,
+      "x": 0.752,
+      "y": 0.788,
+      "category": "accessibility",
+      "text": "Men's and women's rooms show dashed turning circles. Confirm a 60-inch turning space and a 32-inch clear door."
+    }
+  ],
+  "issues": [
+    {
+      "id": "toilets",
+      "title": "Toilet rooms need a check against the accessible clearances",
+      "detail": "The men's and women's rooms are drawn with dashed circles. Confirm each circle is 60 inches, the doors are 32 inches clear, and the maneuvering space is on the pull side.",
+      "category": "accessibility",
+      "severity": "high",
+      "page": 0,
+      "x": 0.752,
+      "y": 0.788
+    },
+    {
+      "id": "exercise",
+      "title": "Exercise room occupant load is noted as 20",
+      "detail": "The plan labels the exercise room at 1,000 square feet and 50 square feet per person, 20 people. Confirm that factor and that the doors out of the room are far enough apart.",
+      "category": "egress",
+      "severity": "medium",
+      "page": 0,
+      "x": 0.7,
+      "y": 0.5
+    },
+    {
+      "id": "game",
+      "title": "Game room is noted at about 38 people",
+      "detail": "The game room tag uses 15 square feet per person. Confirm a second way out, and that the path past the pool table and foosball is not a dead end.",
+      "category": "egress",
+      "severity": "medium",
+      "page": 0,
+      "x": 0.32,
+      "y": 0.4
+    },
+    {
+      "id": "elev",
+      "title": "Elevations do not dimension the rails or the cupola",
+      "detail": "A4.0 shows the four elevations and the cupolas. Confirm rail heights at the entries and how the cupola is built. Those notes are not on the sheet.",
+      "category": "dimensions",
+      "severity": "medium",
+      "page": 1,
+      "x": 0.48,
+      "y": 0.55
+    }
+  ],
+  "spaces": [
+    {
+      "name": "Game room",
+      "area": 572,
+      "factor": 15
+    },
+    {
+      "name": "Patio",
+      "area": 552,
+      "factor": 15
+    },
+    {
+      "name": "Exercise",
+      "area": 1000,
+      "factor": 50
+    },
+    {
+      "name": "Lounge",
+      "area": 530,
+      "factor": 15
+    },
+    {
+      "name": "Conference",
+      "area": 168,
+      "factor": 15
+    }
+  ]
+}
